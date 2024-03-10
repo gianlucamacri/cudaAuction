@@ -1,0 +1,750 @@
+[
+  {
+    "directory": "testcases/semisparse/",
+    "exec_path": "./graph_test_runner_128_256_1",
+    "iter_num": 2,
+    "group_dim": 3,
+    "directory_results": [
+      {
+        "person_number": 500,
+        "obj_number": 500,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_001_500_500_50.bin",
+          "testcases/semisparse/testcase_002_500_500_50.bin",
+          "testcases/semisparse/testcase_003_500_500_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 105.012276,
+            "gpu_time_sd": 39.464455
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_001_500_500_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 4196,
+                    "score": 4969001,
+                    "exec_time": 103.866013,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 4196,
+                    "score": 4969001,
+                    "exec_time": 101.086273,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_002_500_500_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 2322,
+                    "score": 4967317,
+                    "exec_time": 57.504704,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 2322,
+                    "score": 4967317,
+                    "exec_time": 58.511551,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_003_500_500_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 6797,
+                    "score": 4969786,
+                    "exec_time": 154.264633,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 6797,
+                    "score": 4969786,
+                    "exec_time": 154.840485,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 105.012276 (sd 39.464455)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_001_500_500_50.bin\ngraph loaded\nauction rounds: 4196\ntotal_cost: 4969001.000000\ngpu exec time: 103.866013 ms\n\nauction rounds: 4196\ntotal_cost: 4969001.000000\ngpu exec time: 101.086273 ms\n\nfile results:\ngpu mean time: 102.476143 (sd 1.389870)\n\nreading testcases/semisparse/testcase_002_500_500_50.bin\ngraph loaded\nauction rounds: 2322\ntotal_cost: 4967317.000000\ngpu exec time: 57.504704 ms\n\nauction rounds: 2322\ntotal_cost: 4967317.000000\ngpu exec time: 58.511551 ms\n\nfile results:\ngpu mean time: 58.008127 (sd 0.503424)\n\nreading testcases/semisparse/testcase_003_500_500_50.bin\ngraph loaded\nauction rounds: 6797\ntotal_cost: 4969786.000000\ngpu exec time: 154.264633 ms\n\nauction rounds: 6797\ntotal_cost: 4969786.000000\ngpu exec time: 154.840485 ms\n\nfile results:\ngpu mean time: 154.552559 (sd 0.287926)\n\nglobal results:\ngpu mean time: 105.012276 (sd 39.464455)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 697,
+        "obj_number": 697,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_004_697_697_50.bin",
+          "testcases/semisparse/testcase_005_697_697_50.bin",
+          "testcases/semisparse/testcase_006_697_697_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 72.744166,
+            "gpu_time_sd": 17.977252
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_004_697_697_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 3724,
+                    "score": 6936688,
+                    "exec_time": 91.430367,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 3724,
+                    "score": 6936688,
+                    "exec_time": 94.081123,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_005_697_697_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 3018,
+                    "score": 6937396,
+                    "exec_time": 76.398819,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 3018,
+                    "score": 6937396,
+                    "exec_time": 76.123489,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_006_697_697_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 1834,
+                    "score": 6937357,
+                    "exec_time": 48.056606,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 1834,
+                    "score": 6937357,
+                    "exec_time": 50.374592,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 72.744166 (sd 17.977252)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_004_697_697_50.bin\ngraph loaded\nauction rounds: 3724\ntotal_cost: 6936688.000000\ngpu exec time: 91.430367 ms\n\nauction rounds: 3724\ntotal_cost: 6936688.000000\ngpu exec time: 94.081123 ms\n\nfile results:\ngpu mean time: 92.755745 (sd 1.325378)\n\nreading testcases/semisparse/testcase_005_697_697_50.bin\ngraph loaded\nauction rounds: 3018\ntotal_cost: 6937396.000000\ngpu exec time: 76.398819 ms\n\nauction rounds: 3018\ntotal_cost: 6937396.000000\ngpu exec time: 76.123489 ms\n\nfile results:\ngpu mean time: 76.261154 (sd 0.137665)\n\nreading testcases/semisparse/testcase_006_697_697_50.bin\ngraph loaded\nauction rounds: 1834\ntotal_cost: 6937357.000000\ngpu exec time: 48.056606 ms\n\nauction rounds: 1834\ntotal_cost: 6937357.000000\ngpu exec time: 50.374592 ms\n\nfile results:\ngpu mean time: 49.215599 (sd 1.158993)\n\nglobal results:\ngpu mean time: 72.744166 (sd 17.977252)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 972,
+        "obj_number": 972,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_007_972_972_50.bin",
+          "testcases/semisparse/testcase_008_972_972_50.bin",
+          "testcases/semisparse/testcase_009_972_972_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 104.252555,
+            "gpu_time_sd": 12.22186
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_007_972_972_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 3519,
+                    "score": 9687732,
+                    "exec_time": 87.857056,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 3519,
+                    "score": 9687732,
+                    "exec_time": 90.278114,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_008_972_972_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 4756,
+                    "score": 9689034,
+                    "exec_time": 117.210495,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 4756,
+                    "score": 9689034,
+                    "exec_time": 120.350304,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_009_972_972_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 4054,
+                    "score": 9689720,
+                    "exec_time": 103.454269,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 4146,
+                    "score": 9689701,
+                    "exec_time": 106.365089,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 104.252555 (sd 12.221860)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_007_972_972_50.bin\ngraph loaded\nauction rounds: 3519\ntotal_cost: 9687732.000000\ngpu exec time: 87.857056 ms\n\nauction rounds: 3519\ntotal_cost: 9687732.000000\ngpu exec time: 90.278114 ms\n\nfile results:\ngpu mean time: 89.067585 (sd 1.210529)\n\nreading testcases/semisparse/testcase_008_972_972_50.bin\ngraph loaded\nauction rounds: 4756\ntotal_cost: 9689034.000000\ngpu exec time: 117.210495 ms\n\nauction rounds: 4756\ntotal_cost: 9689034.000000\ngpu exec time: 120.350304 ms\n\nfile results:\ngpu mean time: 118.780399 (sd 1.569904)\n\nreading testcases/semisparse/testcase_009_972_972_50.bin\ngraph loaded\nauction rounds: 4054\ntotal_cost: 9689720.000000\ngpu exec time: 103.454269 ms\n\nauction rounds: 4146\ntotal_cost: 9689701.000000\ngpu exec time: 106.365089 ms\n\nfile results:\ngpu mean time: 104.909679 (sd 1.455410)\n\nglobal results:\ngpu mean time: 104.252555 (sd 12.221860)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 1357,
+        "obj_number": 1357,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_010_1357_1357_50.bin",
+          "testcases/semisparse/testcase_011_1357_1357_50.bin",
+          "testcases/semisparse/testcase_012_1357_1357_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 193.734843,
+            "gpu_time_sd": 72.735939
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_010_1357_1357_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 3573,
+                    "score": 13538642,
+                    "exec_time": 98.613441,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 3410,
+                    "score": 13538632,
+                    "exec_time": 96.081596,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_011_1357_1357_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 8102,
+                    "score": 13537283,
+                    "exec_time": 202.126053,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 9385,
+                    "score": 13537269,
+                    "exec_time": 233.260284,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_012_1357_1357_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 9915,
+                    "score": 13537775,
+                    "exec_time": 243.423233,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 11912,
+                    "score": 13537764,
+                    "exec_time": 288.904449,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 193.734843 (sd 72.735939)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_010_1357_1357_50.bin\ngraph loaded\nauction rounds: 3573\ntotal_cost: 13538642.000000\ngpu exec time: 98.613441 ms\n\nauction rounds: 3410\ntotal_cost: 13538632.000000\ngpu exec time: 96.081596 ms\n\nfile results:\ngpu mean time: 97.347519 (sd 1.265923)\n\nreading testcases/semisparse/testcase_011_1357_1357_50.bin\ngraph loaded\nauction rounds: 8102\ntotal_cost: 13537283.000000\ngpu exec time: 202.126053 ms\n\nauction rounds: 9385\ntotal_cost: 13537269.000000\ngpu exec time: 233.260284 ms\n\nfile results:\ngpu mean time: 217.693169 (sd 15.567116)\n\nreading testcases/semisparse/testcase_012_1357_1357_50.bin\ngraph loaded\nauction rounds: 9915\ntotal_cost: 13537775.000000\ngpu exec time: 243.423233 ms\n\nauction rounds: 11912\ntotal_cost: 13537764.000000\ngpu exec time: 288.904449 ms\n\nfile results:\ngpu mean time: 266.163841 (sd 22.740608)\n\nglobal results:\ngpu mean time: 193.734843 (sd 72.735939)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 1893,
+        "obj_number": 1893,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_013_1893_1893_50.bin",
+          "testcases/semisparse/testcase_014_1893_1893_50.bin",
+          "testcases/semisparse/testcase_015_1893_1893_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 106.350667,
+            "gpu_time_sd": 18.849362
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_013_1893_1893_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 4107,
+                    "score": 18898537,
+                    "exec_time": 120.354111,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 4884,
+                    "score": 18898544,
+                    "exec_time": 137.488739,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_014_1893_1893_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 3036,
+                    "score": 18897175,
+                    "exec_time": 96.280701,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 2278,
+                    "score": 18897197,
+                    "exec_time": 78.575874,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_015_1893_1893_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 3634,
+                    "score": 18897779,
+                    "exec_time": 108.475075,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 3109,
+                    "score": 18897760,
+                    "exec_time": 96.929504,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 106.350667 (sd 18.849362)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_013_1893_1893_50.bin\ngraph loaded\nauction rounds: 4107\ntotal_cost: 18898537.000000\ngpu exec time: 120.354111 ms\n\nauction rounds: 4884\ntotal_cost: 18898544.000000\ngpu exec time: 137.488739 ms\n\nfile results:\ngpu mean time: 128.921425 (sd 8.567314)\n\nreading testcases/semisparse/testcase_014_1893_1893_50.bin\ngraph loaded\nauction rounds: 3036\ntotal_cost: 18897175.000000\ngpu exec time: 96.280701 ms\n\nauction rounds: 2278\ntotal_cost: 18897197.000000\ngpu exec time: 78.575874 ms\n\nfile results:\ngpu mean time: 87.428288 (sd 8.852413)\n\nreading testcases/semisparse/testcase_015_1893_1893_50.bin\ngraph loaded\nauction rounds: 3634\ntotal_cost: 18897779.000000\ngpu exec time: 108.475075 ms\n\nauction rounds: 3109\ntotal_cost: 18897760.000000\ngpu exec time: 96.929504 ms\n\nfile results:\ngpu mean time: 102.702290 (sd 5.772785)\n\nglobal results:\ngpu mean time: 106.350667 (sd 18.849362)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 2640,
+        "obj_number": 2640,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_016_2640_2640_50.bin",
+          "testcases/semisparse/testcase_017_2640_2640_50.bin",
+          "testcases/semisparse/testcase_018_2640_2640_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 195.071612,
+            "gpu_time_sd": 108.420151
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_016_2640_2640_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 6583,
+                    "score": 26368006,
+                    "exec_time": 191.592026,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 4229,
+                    "score": 26368041,
+                    "exec_time": 136.88295,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_017_2640_2640_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 2101,
+                    "score": 26369318,
+                    "exec_time": 86.407806,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 1760,
+                    "score": 26369292,
+                    "exec_time": 78.367325,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_018_2640_2640_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 13402,
+                    "score": 26368145,
+                    "exec_time": 354.541321,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 12291,
+                    "score": 26368162,
+                    "exec_time": 322.638245,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 195.071612 (sd 108.420151)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_016_2640_2640_50.bin\ngraph loaded\nauction rounds: 6583\ntotal_cost: 26368006.000000\ngpu exec time: 191.592026 ms\n\nauction rounds: 4229\ntotal_cost: 26368041.000000\ngpu exec time: 136.882950 ms\n\nfile results:\ngpu mean time: 164.237488 (sd 27.354538)\n\nreading testcases/semisparse/testcase_017_2640_2640_50.bin\ngraph loaded\nauction rounds: 2101\ntotal_cost: 26369318.000000\ngpu exec time: 86.407806 ms\n\nauction rounds: 1760\ntotal_cost: 26369292.000000\ngpu exec time: 78.367325 ms\n\nfile results:\ngpu mean time: 82.387566 (sd 4.020241)\n\nreading testcases/semisparse/testcase_018_2640_2640_50.bin\ngraph loaded\nauction rounds: 13402\ntotal_cost: 26368145.000000\ngpu exec time: 354.541321 ms\n\nauction rounds: 12291\ntotal_cost: 26368162.000000\ngpu exec time: 322.638245 ms\n\nfile results:\ngpu mean time: 338.589783 (sd 15.951538)\n\nglobal results:\ngpu mean time: 195.071612 (sd 108.420151)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 3684,
+        "obj_number": 3684,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_019_3684_3684_50.bin",
+          "testcases/semisparse/testcase_020_3684_3684_50.bin",
+          "testcases/semisparse/testcase_021_3684_3684_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 259.284454,
+            "gpu_time_sd": 64.921267
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_019_3684_3684_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 9225,
+                    "score": 36809313,
+                    "exec_time": 272.847412,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 13568,
+                    "score": 36809334,
+                    "exec_time": 370.898743,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_020_3684_3684_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 10760,
+                    "score": 36809561,
+                    "exec_time": 303.265594,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 7348,
+                    "score": 36809582,
+                    "exec_time": 222.247009,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_021_3684_3684_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 6587,
+                    "score": 36808697,
+                    "exec_time": 210.728806,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 5192,
+                    "score": 36808705,
+                    "exec_time": 175.719162,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 259.284454 (sd 64.921267)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_019_3684_3684_50.bin\ngraph loaded\nauction rounds: 9225\ntotal_cost: 36809313.000000\ngpu exec time: 272.847412 ms\n\nauction rounds: 13568\ntotal_cost: 36809334.000000\ngpu exec time: 370.898743 ms\n\nfile results:\ngpu mean time: 321.873077 (sd 49.025665)\n\nreading testcases/semisparse/testcase_020_3684_3684_50.bin\ngraph loaded\nauction rounds: 10760\ntotal_cost: 36809561.000000\ngpu exec time: 303.265594 ms\n\nauction rounds: 7348\ntotal_cost: 36809582.000000\ngpu exec time: 222.247009 ms\n\nfile results:\ngpu mean time: 262.756302 (sd 40.509293)\n\nreading testcases/semisparse/testcase_021_3684_3684_50.bin\ngraph loaded\nauction rounds: 6587\ntotal_cost: 36808697.000000\ngpu exec time: 210.728806 ms\n\nauction rounds: 5192\ntotal_cost: 36808705.000000\ngpu exec time: 175.719162 ms\n\nfile results:\ngpu mean time: 193.223984 (sd 17.504822)\n\nglobal results:\ngpu mean time: 259.284454 (sd 64.921267)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 5139,
+        "obj_number": 5139,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_022_5139_5139_50.bin",
+          "testcases/semisparse/testcase_023_5139_5139_50.bin",
+          "testcases/semisparse/testcase_024_5139_5139_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 330.300934,
+            "gpu_time_sd": 118.683806
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_022_5139_5139_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 4438,
+                    "score": 51358840,
+                    "exec_time": 187.832825,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 9632,
+                    "score": 51358778,
+                    "exec_time": 309.881897,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_023_5139_5139_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 17530,
+                    "score": 51359396,
+                    "exec_time": 494.54071,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 17169,
+                    "score": 51359365,
+                    "exec_time": 486.532318,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_024_5139_5139_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 7147,
+                    "score": 51359419,
+                    "exec_time": 250.59642,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 7152,
+                    "score": 51359381,
+                    "exec_time": 252.421432,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 330.300934 (sd 118.683806)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_022_5139_5139_50.bin\ngraph loaded\nauction rounds: 4438\ntotal_cost: 51358840.000000\ngpu exec time: 187.832825 ms\n\nauction rounds: 9632\ntotal_cost: 51358778.000000\ngpu exec time: 309.881897 ms\n\nfile results:\ngpu mean time: 248.857361 (sd 61.024536)\n\nreading testcases/semisparse/testcase_023_5139_5139_50.bin\ngraph loaded\nauction rounds: 17530\ntotal_cost: 51359396.000000\ngpu exec time: 494.540710 ms\n\nauction rounds: 17169\ntotal_cost: 51359365.000000\ngpu exec time: 486.532318 ms\n\nfile results:\ngpu mean time: 490.536514 (sd 4.004196)\n\nreading testcases/semisparse/testcase_024_5139_5139_50.bin\ngraph loaded\nauction rounds: 7147\ntotal_cost: 51359419.000000\ngpu exec time: 250.596420 ms\n\nauction rounds: 7152\ntotal_cost: 51359381.000000\ngpu exec time: 252.421432 ms\n\nfile results:\ngpu mean time: 251.508926 (sd 0.912506)\n\nglobal results:\ngpu mean time: 330.300934 (sd 118.683806)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 7168,
+        "obj_number": 7168,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_025_7168_7168_50.bin",
+          "testcases/semisparse/testcase_026_7168_7168_50.bin",
+          "testcases/semisparse/testcase_027_7168_7168_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 363.145075,
+            "gpu_time_sd": 60.679109
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_025_7168_7168_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 5066,
+                    "score": 71650192,
+                    "exec_time": 259.21524,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 7462,
+                    "score": 71650239,
+                    "exec_time": 314.17392,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_026_7168_7168_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 9794,
+                    "score": 71650543,
+                    "exec_time": 376.098511,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 11185,
+                    "score": 71650569,
+                    "exec_time": 400.716522,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_027_7168_7168_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 10063,
+                    "score": 71649934,
+                    "exec_time": 382.143829,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 12970,
+                    "score": 71649927,
+                    "exec_time": 446.52243,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 363.145075 (sd 60.679109)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_025_7168_7168_50.bin\ngraph loaded\nauction rounds: 5066\ntotal_cost: 71650192.000000\ngpu exec time: 259.215240 ms\n\nauction rounds: 7462\ntotal_cost: 71650239.000000\ngpu exec time: 314.173920 ms\n\nfile results:\ngpu mean time: 286.694580 (sd 27.479340)\n\nreading testcases/semisparse/testcase_026_7168_7168_50.bin\ngraph loaded\nauction rounds: 9794\ntotal_cost: 71650543.000000\ngpu exec time: 376.098511 ms\n\nauction rounds: 11185\ntotal_cost: 71650569.000000\ngpu exec time: 400.716522 ms\n\nfile results:\ngpu mean time: 388.407516 (sd 12.309006)\n\nreading testcases/semisparse/testcase_027_7168_7168_50.bin\ngraph loaded\nauction rounds: 10063\ntotal_cost: 71649934.000000\ngpu exec time: 382.143829 ms\n\nauction rounds: 12970\ntotal_cost: 71649927.000000\ngpu exec time: 446.522430 ms\n\nfile results:\ngpu mean time: 414.333130 (sd 32.189301)\n\nglobal results:\ngpu mean time: 363.145075 (sd 60.679109)\n",
+          "errors": ""
+        }
+      },
+      {
+        "person_number": 10000,
+        "obj_number": 10000,
+        "density": 0.5,
+        "relative_files": [
+          "testcases/semisparse/testcase_028_10000_10000_50.bin",
+          "testcases/semisparse/testcase_029_10000_10000_50.bin",
+          "testcases/semisparse/testcase_030_10000_10000_50.bin"
+        ],
+        "group_values": {
+          "times": {
+            "gpu_time_mean": 652.616206,
+            "gpu_time_sd": 191.721808
+          },
+          "partitioned_output": {
+            "group_results": [
+              {
+                "filename": "testcases/semisparse/testcase_028_10000_10000_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 29286,
+                    "score": 99971274,
+                    "exec_time": 945.485596,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 24372,
+                    "score": 99971310,
+                    "exec_time": 851.875488,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_029_10000_10000_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 17026,
+                    "score": 99971161,
+                    "exec_time": 642.535828,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 5841,
+                    "score": 99971232,
+                    "exec_time": 383.902191,
+                    "device": "gpu"
+                  }
+                ]
+              },
+              {
+                "filename": "testcases/semisparse/testcase_030_10000_10000_50.bin",
+                "iteration_res": [
+                  {
+                    "auction_rounds": 12224,
+                    "score": 99970950,
+                    "exec_time": 544.905884,
+                    "device": "gpu"
+                  },
+                  {
+                    "auction_rounds": 11555,
+                    "score": 99970968,
+                    "exec_time": 546.992249,
+                    "device": "gpu"
+                  }
+                ]
+              }
+            ],
+            "global_results": "global results:\ngpu mean time: 652.616206 (sd 191.721808)\n"
+          },
+          "output": "reading testcases/semisparse/testcase_028_10000_10000_50.bin\ngraph loaded\nauction rounds: 29286\ntotal_cost: 99971274.000000\ngpu exec time: 945.485596 ms\n\nauction rounds: 24372\ntotal_cost: 99971310.000000\ngpu exec time: 851.875488 ms\n\nfile results:\ngpu mean time: 898.680542 (sd 46.805054)\n\nreading testcases/semisparse/testcase_029_10000_10000_50.bin\ngraph loaded\nauction rounds: 17026\ntotal_cost: 99971161.000000\ngpu exec time: 642.535828 ms\n\nauction rounds: 5841\ntotal_cost: 99971232.000000\ngpu exec time: 383.902191 ms\n\nfile results:\ngpu mean time: 513.219009 (sd 129.316818)\n\nreading testcases/semisparse/testcase_030_10000_10000_50.bin\ngraph loaded\nauction rounds: 12224\ntotal_cost: 99970950.000000\ngpu exec time: 544.905884 ms\n\nauction rounds: 11555\ntotal_cost: 99970968.000000\ngpu exec time: 546.992249 ms\n\nfile results:\ngpu mean time: 545.949066 (sd 1.043182)\n\nglobal results:\ngpu mean time: 652.616206 (sd 191.721808)\n",
+          "errors": ""
+        }
+      }
+    ]
+  }
+]
